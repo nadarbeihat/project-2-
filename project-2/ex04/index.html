@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Box Model</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>The Box Model</h1>
+  <p>Both boxes have the same CSS: width 300px, padding 20px, border 10px.</p>
+
+  <div class="ruler">Reference: 300px</div>
+
+  <h2>box-sizing: content-box</h2>
+  <div class="box content-box">
+    Content width = 300px.<br>
+    Total width = 300 + 20 + 20 + 10 + 10 = 360px.
+  </div>
+
+  <h2>box-sizing: border-box</h2>
+  <div class="box border-box">
+    Total width = 300px.<br>
+    Padding and border are absorbed inside it.<br>
+    Content width = 300 - 20 - 20 - 10 - 10 = 240px.
+  </div>
+
+  <p>Inspect each box in DevTools to see the box model diagram.</p>
+
+</body>
+</html>

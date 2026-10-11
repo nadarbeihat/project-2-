@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #222222;
+  background-color: #ffffff;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.dark {
+  background-color: #1d3557;
+  padding: 10px;
+}
+
+.swatch {
+  width: 150px;
+  height: 80px;
+  padding: 8px;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* Named */
+.named1 { background-color: tomato; }
+.named2 { background-color: steelblue; }
+.named3 { background-color: seagreen; }
+
+/* HEX */
+.hex1 { background-color: #e63946; }
+.hex2 { background-color: #1d3557; }
+.hex3 { background-color: #2a9d8f; }
+
+/* RGB */
+.rgb1 { background-color: rgb(230, 57, 70); }
+.rgb2 { background-color: rgb(29, 53, 87); }
+.rgb3 { background-color: rgb(42, 157, 143); }
+
+/* RGBA */
+.rgba1 { background-color: rgba(230, 57, 70, 1); }
+.rgba2 { background-color: rgba(230, 57, 70, 0.75); }
+.rgba3 { background-color: rgba(230, 57, 70, 0.5); }
+.rgba4 { background-color: rgba(230, 57, 70, 0.25); }
+
+/* Comparison */
+.stage {
+  background-color: #f6c744;
+  padding: 20px;
+}
+
+.box {
+  width: 250px;
+  padding: 15px;
+  color: #000000;
+}
+
+.child {
+  background-color: #1d3557;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.opacity-box {
+  background-color: #d62839;
+  opacity: 0.5;
+}
+
+.rgba-box {
+  background-color: rgba(214, 40, 57, 0.5);
+}

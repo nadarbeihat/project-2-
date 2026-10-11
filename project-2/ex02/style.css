@@ -1,0 +1,85 @@
+
+body {
+    margin: 0;
+    padding: 40px;
+    background-color: #111111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 42px;
+    letter-spacing: 5px;
+}
+
+h1 span {
+    color: red;
+}
+
+.subtitle {
+    color: #999999;
+    letter-spacing: 4px;
+    font-size: 12px;
+}
+
+.shape-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.shape-card {
+    width: 180px;
+    height: 200px;
+    border: 1px solid #383838;
+    text-align: center;
+    padding: 20px;
+    background-color: #191919;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 4px solid red;
+    margin: 25px auto;
+}
+
+.rectangle {
+    width: 140px;
+    height: 70px;
+    border: 4px solid red;
+    margin: 40px auto;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 4px solid red;
+    border-radius: 50%;
+    margin: 25px auto;
+}
+
+.pill {
+    width: 140px;
+    height: 60px;
+    border: 4px solid red;
+    border-radius: 50px;
+    margin: 45px auto;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border: 50px solid transparent;
+    border-bottom: 85px solid red;
+    border-top: 0;
+    margin: 30px auto 25px;
+}
+
+.shape-card p {
+    color: #bbbbbb;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+

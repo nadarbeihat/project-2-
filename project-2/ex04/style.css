@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #222222;
+  padding: 20px;
+}
+
+h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.ruler {
+  width: 300px;
+  background-color: #222222;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.box {
+  width: 300px;
+  padding: 20px;
+  border: 10px solid #1d3557;
+  margin-bottom: 10px;
+  background-color: #a8dadc;
+}
+
+.content-box {
+  box-sizing: content-box;
+}
+
+.border-box {
+  box-sizing: border-box;
+}

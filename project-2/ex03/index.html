@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Colors & Opacity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Colors & Opacity</h1>
+
+  <h2>Palette</h2>
+
+  <h3>Named</h3>
+  <div class="row">
+    <div class="swatch named1">tomato</div>
+    <div class="swatch named2">steelblue</div>
+    <div class="swatch named3">seagreen</div>
+  </div>
+
+  <h3>HEX</h3>
+  <div class="row">
+    <div class="swatch hex1">#e63946</div>
+    <div class="swatch hex2">#1d3557</div>
+    <div class="swatch hex3">#2a9d8f</div>
+  </div>
+
+  <h3>RGB</h3>
+  <div class="row">
+    <div class="swatch rgb1">rgb(230, 57, 70)</div>
+    <div class="swatch rgb2">rgb(29, 53, 87)</div>
+    <div class="swatch rgb3">rgb(42, 157, 143)</div>
+  </div>
+
+  <h3>RGBA</h3>
+  <div class="row dark">
+    <div class="swatch rgba1">alpha 1</div>
+    <div class="swatch rgba2">alpha 0.75</div>
+    <div class="swatch rgba3">alpha 0.5</div>
+    <div class="swatch rgba4">alpha 0.25</div>
+  </div>
+
+  <h2>opacity vs rgba</h2>
+
+  <div class="row">
+    <div class="stage">
+      <div class="box opacity-box">
+        <p>opacity: 0.5</p>
+        <div class="child">Child</div>
+      </div>
+    </div>
+
+    <div class="stage">
+      <div class="box rgba-box">
+        <p>rgba(..., 0.5)</p>
+        <div class="child">Child</div>
+      </div>
+    </div>
+  </div>
+
+  <p>
+    <code>opacity</code> fades the whole element, so its text and child are faded too.
+    <code>rgba()</code> is only a color value, so it fades just the background and the text and child stay solid.
+  </p>
+
+  <p>Opacity cascades to all children; RGBA affects only its property.</p>
+
+</body>
+</html>
